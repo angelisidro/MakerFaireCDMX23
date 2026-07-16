@@ -1,7 +1,7 @@
 # Mediciones Ambientales con GaLIoT Board
 ## PACI - Electrónica y Medio Ambiente
 ![Background](img/galiot_board-2.png)
-## Instalación de la Tarjeta GALIoT Board
+## Instalación de la Tarjetas Tesla Lab
 
 Para la instalación en Arduino IDE debemos seguir los siguientes pasos:
 
@@ -69,10 +69,24 @@ Puede seguir está guía para la instalación como una segunda opción:
 
 ## Pinout
 
-### NeoPixels
+### NeoPixels GALIoT Board 6 NeoPixel
 Nombre | GPIO 
 --- | --- 
 DATA | 14
+VDD | 3V3
+VSS | GND
+
+### NeoPixels MONAIR Board 1 NeoPixel
+Nombre | GPIO 
+--- | --- 
+DATA | 25
+VDD | 3V3
+VSS | GND
+
+### Sonda de Temperatura
+Nombre | GPIO 
+--- | --- 
+DATA | 32
 VDD | 3V3
 VSS | GND
 
@@ -85,7 +99,7 @@ SDI | 21
 VDD | 3V3
 VSS | GND
 
-### Buzzer
+### Buzzer (GALIoT Board
 Nombre | GPIO 
 --- | --- 
 DATA | 27
